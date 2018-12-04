@@ -14,6 +14,7 @@
         <module>service-zuul</module>
         <module>config-server</module>
         <module>spring-security</module>
+        <module>spring-register</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -64,6 +65,16 @@
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.2.Final</version>
         </dependency>
     </dependencies>
 
